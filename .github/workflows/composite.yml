@@ -2,6 +2,8 @@ name: composite actions test
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
   composite-action:
